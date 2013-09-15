@@ -22,7 +22,7 @@
         public void SetAndGetSimpleSpout()
         {
             TopologyBuilder builder = new TopologyBuilder();
-            ISpout spout = new SimpleSpout();
+            ISpout spout = new SimpleSpout(); 
 
             builder.SetSpout("Simple", spout);
 
