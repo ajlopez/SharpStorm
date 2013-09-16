@@ -5,6 +5,7 @@
     using System.Linq;
     using System.Text;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using SharpStorm.Core.Tests.Bolts;
     using SharpStorm.Core.Tests.Spouts;
 
     [TestClass]
@@ -30,6 +31,28 @@
 
             Assert.IsNotNull(result);
             Assert.AreSame(spout, result);
+        }
+
+        [TestMethod]
+        public void GetUnknownBoltAsNull()
+        {
+            TopologyBuilder builder = new TopologyBuilder();
+
+            Assert.IsNull(builder.GetBolt("Unkown"));
+        }
+
+        [TestMethod]
+        public void SetAndGetSimpleBolt()
+        {
+            TopologyBuilder builder = new TopologyBuilder();
+            IBolt bolt = new SimpleBolt();
+
+            builder.SetBolt("Simple", bolt);
+
+            var result = builder.GetBolt("Simple");
+
+            Assert.IsNotNull(result);
+            Assert.AreSame(bolt, result);
         }
     }
 }
