@@ -5,7 +5,7 @@
     using System.Linq;
     using System.Text;
 
-    class SimpleBolt : IBolt
+    public class SimpleBolt : IBolt
     {
         public void Execute(IContext context, object tuple)
         {

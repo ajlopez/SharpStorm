@@ -1,0 +1,51 @@
+<stylecopresultscache>
+  <version>10</version>
+  <project key="1863090346">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="IBolt.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>09/15/2013 19:52:47</timestamp>
+      <milliseconds>306</milliseconds>
+    </settings>
+    <timestamp>09/16/2013 10:11:02</timestamp>
+    <milliseconds>190</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="IContext.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>09/15/2013 19:52:47</timestamp>
+      <milliseconds>306</milliseconds>
+    </settings>
+    <timestamp>09/15/2013 19:55:21</timestamp>
+    <milliseconds>2</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ISpout.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>09/15/2013 19:52:47</timestamp>
+      <milliseconds>306</milliseconds>
+    </settings>
+    <timestamp>09/15/2013 19:55:06</timestamp>
+    <milliseconds>936</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>09/15/2013 19:52:47</timestamp>
+      <milliseconds>306</milliseconds>
+    </settings>
+    <timestamp>09/15/2013 19:30:16</timestamp>
+    <milliseconds>56</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="TopologyBuilder.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>09/15/2013 19:52:47</timestamp>
+      <milliseconds>306</milliseconds>
+    </settings>
+    <timestamp>09/16/2013 10:17:12</timestamp>
+    <milliseconds>345</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

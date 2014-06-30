@@ -1,0 +1,48 @@
+<stylecopresultscache>
+  <version>10</version>
+  <project key="24706951">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="AssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>09/15/2013 19:52:56</timestamp>
+      <milliseconds>679</milliseconds>
+    </settings>
+    <timestamp>09/15/2013 19:30:53</timestamp>
+    <milliseconds>54</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="SimpleBolt.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>09/15/2013 19:52:56</timestamp>
+      <milliseconds>679</milliseconds>
+    </settings>
+    <timestamp>09/16/2013 10:11:45</timestamp>
+    <milliseconds>866</milliseconds>
+    <violations>
+      <violation namespace="Microsoft.StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="SimpleSpout.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>09/15/2013 19:52:56</timestamp>
+      <milliseconds>679</milliseconds>
+    </settings>
+    <timestamp>09/15/2013 19:56:26</timestamp>
+    <milliseconds>314</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="TopologyBuilderTests.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>09/15/2013 19:52:56</timestamp>
+      <milliseconds>679</milliseconds>
+    </settings>
+    <timestamp>09/16/2013 10:13:06</timestamp>
+    <milliseconds>343</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>
